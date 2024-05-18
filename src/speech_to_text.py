@@ -1,7 +1,7 @@
 from openai import OpenAI
 import io
 
-client = client = OpenAI(api_key="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")
+client = client = OpenAI(api_key="XYZ")
 
 
 def speech_to_text(audio_data: bytes) -> str:

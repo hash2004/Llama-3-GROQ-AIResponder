@@ -16,4 +16,3 @@ base
 streamlit-audiorec
 io
 pymongo
-source aiproj/bin/activate

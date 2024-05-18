@@ -20,10 +20,10 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Load API keys from environment variables
-OPENAI_API_KEY = "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"
-GROQ_API_KEY = "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"
-Astra_DB_Application_Token = "AstraCS:cnjSuXtWJiEsXawbLiDqNpHo:fc5a7cb84814165c87253bbff971dd91721596a853c5a2bd5beddec0ff021122"
-Astra_DB_ID = "f30d5de1-b8e4-4571-8076-777678adaa38"
+OPENAI_API_KEY = "XYZ"
+GROQ_API_KEY = "XYZ"
+Astra_DB_Application_Token = "XYZ"
+Astra_DB_ID = "XYZ"
 cassio.init(database_id= Astra_DB_ID, token = Astra_DB_Application_Token)
 memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
 

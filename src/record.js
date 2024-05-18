@@ -20,3 +20,4 @@ navigator.mediaDevices.getUserMedia({ audio: true })
       audio.play();
     });
   });
+/*This piece of code is not used in the application as of right now. */
