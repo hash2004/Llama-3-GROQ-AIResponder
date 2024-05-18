@@ -20,15 +20,13 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Load API keys from environment variables
-OPENAI_API_KEY = "XYZ"
-GROQ_API_KEY = "XYZ"
-Astra_DB_Application_Token = "XYZ"
-Astra_DB_ID = "XYZ"
+#placeholder for api keys
+
 cassio.init(database_id= Astra_DB_ID, token = Astra_DB_Application_Token)
 
 user_id = "test"
 
-mongo_client = MongoClient("mongodb://localhost:27017")  # Make sure to set MONGO_URI in your environment variables
+mongo_client = MongoClient("mongodb://localhost:27017")  
 db = mongo_client['ai_bot']  # Database name
 context_collection = db['context']  # Collection name
 

@@ -11,10 +11,8 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Load API keys from environment variables
-OPENAI_API_KEY = "XYZ"
-GROQ_API_KEY = "XYZ"
-Astra_DB_Application_Token = "XYZ"
-Astra_DB_ID = "XYZ"
+#placeholder for api keys
+
 
 def initialize_api_connections_context():
     """

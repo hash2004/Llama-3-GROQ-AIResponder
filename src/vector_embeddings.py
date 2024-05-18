@@ -14,10 +14,8 @@ import cassio
 
 # Load environment variables
 load_dotenv()
-OPENAI_API_KEY = "XYZ"
-GROQ_API_KEY = "XYZ"
-Astra_DB_Application_Token = "XYZ"
-Astra_DB_ID = "XYZ"
+#placeholder for api keys
+
 print("Initializing Astra DB connection....")
 cassio.init(database_id= Astra_DB_ID, token = Astra_DB_Application_Token)
 # PDF processing with fitz
